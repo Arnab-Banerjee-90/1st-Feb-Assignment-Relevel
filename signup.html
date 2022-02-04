@@ -4,37 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+    <link href='http://fonts.googleapis.com/css?family=Patrick%20Hand:400,300' rel='stylesheet' type='text/css'>
     <title>Document</title>
 </head>
 <body>
     <form action="login.html" method="get">
         <h1>Please Sign up!!</h1>
-        <label for="fname">First Name</label><br>
-        <input type="text" name="fname" id="fname"><br><br>
-        <label for="mname">Middle Name</label><br>
-        <input type="text" name="mname" id="mname"><br><br>
-        <label for="lname">Last Name</label><br>
-        <input type="text" name="lname" id="lname"><br><br>
-        <label for="dob">Birth Date</label><br>
-        <input type="date" name="dob" id="dob"><br><br>
-        <label>Country Zone</label><br>
-        <label>North <input type="radio" name="country_zone" value="north"></label>
-        <label>South <input type="radio" name="country_zone" value="south"></label>
-        <label>East <input type="radio" name="country_zone" value="east"></label>
-        <label>West <input type="radio" name="country_zone" value="west"></label><br><br>
-        <label>Gender</label><br>
-        <label>Male <input type="radio" name="gender" value="male"></label>
-        <label>Female <input type="radio" name="gender" value="female"></label>
-        <label>Other <input type="radio" name="gender" value="other"></label><br><br>
-        <label>Your Favourite Dish</label><br>
-        <label>Pizza! <input type="checkbox" name="fav_dish" value="pizza"></label>
-        <label>Burger! <input type="checkbox" name="fav_dish" value="burger"></label>
-        <label>Pasta! <input type="checkbox" name="fav_dish" value="pasta"></label><br><br>
-        <label for="uname">User Name</label><br>
+        <label for="fname"><span class="number">1</span>First Name</label><br>
+        <input type="text" name="fname" id="fname"><br>
+        <label for="mname"><span class="number">2</span>Middle Name</label><br>
+        <input type="text" name="mname" id="mname"><br>
+        <label for="lname"><span class="number">3</span>Last Name</label><br>
+        <input type="text" name="lname" id="lname"><br>
+        <label for="dob"><span class="number">4</span>Birth Date</label><br>
+        <input type="date" name="dob" id="dob"><br>
+        <label ><span class="number">5</span>Country Zone</label><br>
+        <label><input type="radio" name="country_zone" value="north">North</label>
+        <label><input type="radio" name="country_zone" value="south">South</label>
+        <label><input type="radio" name="country_zone" value="east">East</label>
+        <label><input type="radio" name="country_zone" value="west">West</label><br>
+        <label><span class="number">6</span>Gender</label><br>
+        <label><input type="radio" name="gender" value="male">Male</label>
+        <label><input type="radio" name="gender" value="female">Female</label>
+        <label><input type="radio" name="gender" value="other">Other</label><br><br>
+        <label><span class="number">7</span>Your Favourite Dish</label><br>
+        <label><input type="checkbox" name="fav_dish" value="pizza">Pizza!</label>
+        <label><input type="checkbox" name="fav_dish" value="burger">Burger!</label>
+        <label><input type="checkbox" name="fav_dish" value="pasta">Pasta!</label><br><br>
+        <label for="uname"><span class="number">8</span>User Name</label><br>
         <input type="text" id="uname" name="uname"><br><br>
-        <label for="email">Email</label><br>
+        <label for="email"><span class="number">9</span>Email</label><br>
         <input type="email" id="email" name="email"><br><br>
-        <label for="password">Password</label><br>
+        <label for="password"><span class="number">10</span>Password</label><br>
         <input type="password" id="password" name="password"><br><br>
         <button type="submit">Click to Sign Up!!</button>
     </form>
